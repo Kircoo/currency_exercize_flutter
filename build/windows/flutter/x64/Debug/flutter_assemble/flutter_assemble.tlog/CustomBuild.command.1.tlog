@@ -1,0 +1,28 @@
+^C:\USERS\KIRCHO\DESKTOP\CURRENCY_EXCHANGE\BUILD\WINDOWS\CMAKEFILES\E77FD4F5232C9972CE9017265BA79C90\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT="C:\flutter" PROJECT_DIR="C:\Users\Kircho\Desktop\currency_exchange" FLUTTER_ROOT="C:\flutter" FLUTTER_EPHEMERAL_DIR="C:\Users\Kircho\Desktop\currency_exchange\windows\flutter\ephemeral" PROJECT_DIR="C:\Users\Kircho\Desktop\currency_exchange" FLUTTER_TARGET="C:\Users\Kircho\Desktop\currency_exchange\lib\main.dart" DART_DEFINES="flutter.inspector.structuredErrors=true" DART_OBFUSCATION="false" TRACK_WIDGET_CREATION="true" TREE_SHAKE_ICONS="false" PACKAGE_CONFIG=".packages" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KIRCHO\DESKTOP\CURRENCY_EXCHANGE\BUILD\WINDOWS\CMAKEFILES\871E52EECB6E0B9A42523D5085922E9F\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\KIRCHO\DESKTOP\CURRENCY_EXCHANGE\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Kircho/Desktop/currency_exchange/windows -BC:/Users/Kircho/Desktop/currency_exchange/build/windows --check-stamp-file C:/Users/Kircho/Desktop/currency_exchange/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\KIRCHO\DESKTOP\CURRENCY_EXCHANGE\BUILD\WINDOWS\CMAKEFILES\E95B93D523B2605B657C28BB5908B6FD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Kircho/Desktop/currency_exchange/windows -BC:/Users/Kircho/Desktop/currency_exchange/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Kircho/Desktop/currency_exchange/build/windows/currency_exchange.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

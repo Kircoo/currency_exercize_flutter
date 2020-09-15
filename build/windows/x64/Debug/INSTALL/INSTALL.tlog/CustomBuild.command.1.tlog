@@ -1,0 +1,10 @@
+^C:\USERS\KIRCHO\DESKTOP\CURRENCY_EXCHANGE\BUILD\WINDOWS\CMAKEFILES\E95B93D523B2605B657C28BB5908B6FD\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
